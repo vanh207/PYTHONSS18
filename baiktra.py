@@ -1,3 +1,12 @@
+student_list = [{
+    "id":"SV001",
+    "full_name":"Nguyen Van A",
+    "math_score": 8.5,
+    "physics_score": 7.0,
+    "chemistry_score": 9.0,
+    "average_score": 8.17,
+    "academic_ranking": "giỏi"
+}]
 def Display_student(student_list):
     print("\n----- HIỂN THỊ DANH SÁCH SINH VIÊN -------")
     if not student_list:
@@ -182,15 +191,6 @@ def statistics_rank():
     print(f"Khá: {count_k}")
     print(f"Trung bình : {count_tb}")
     print(f"Yếu: {count_y}")
-student_list = [{
-    "id":"SV001",
-    "full_name":"Nguyen Van A",
-    "math_score": 8.5,
-    "physics_score": 7.0,
-    "chemistry_score": 9.0,
-    "average_score": 8.17,
-    "academic_ranking": "giỏi"
-}]
 while True:
     print("\n-----MENU------")
     print("1. Hiển thị danh sách sinh viên ")
